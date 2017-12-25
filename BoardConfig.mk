@@ -1,4 +1,4 @@
-LOCAL_PATH := device/Infinx/X601
+LOCAL_PATH := device/Infinix/X601
 # inherit from the proprietary version
 -include vendor/Infinix/X601/BoardConfigVendor.mk
 
