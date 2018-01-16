@@ -8,7 +8,7 @@
 #include <hardware/hardware.h>
 
 extern "C" {
-void _ZN7android16CameraParameters15KEY_VOLTE_STATEE () {
+void _ZNK7android16CameraParameters22getPreviewCallBackSizeEPiS1_ () {
     }
 }
 
