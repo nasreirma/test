@@ -186,3 +186,11 @@ PRODUCT_SYSTEM_SERVER_JARS += com.cyanogenmod.keyhandler
 
 # Never dexopt the keyhandler
 $(call add-product-dex-preopt-module-config,com.cyanogenmod.keyhandler,disable)
+
+# GAPPS
+GAPPS_VARIANT := micro
+PRODUCT_PACKAGES += PrebuiltGmail
+PRODUCT_PACKAGES += Youtube
+PRODUCT_PACKAGES += Chrome
+PRODUCT_PACKAGES += PlayGames
+PRODUCT_PACKAGES += Drive
