@@ -194,3 +194,4 @@ PRODUCT_PACKAGES += Youtube
 PRODUCT_PACKAGES += Chrome
 PRODUCT_PACKAGES += PlayGames
 PRODUCT_PACKAGES += Drive
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
